@@ -1,29 +1,46 @@
-Langie Agent - LangGraph Customer Support Workflow
+**Langie Agent - LangGraph Customer Support Workflow**
+
 A sophisticated customer support agent built with LangGraph that orchestrates 11-stage workflows with MCP client integration for automated and human-assisted customer service.
-🎯 Overview
+
+**🎯 Overview**
+
 Langie is a structured and logical LangGraph Agent that processes customer support requests through a comprehensive 11-stage workflow:
 
 INTAKE 📥 - Accept payload
+
 UNDERSTAND 🧠 - Parse request and extract entities
+
 PREPARE 🛠️ - Normalize and enrich data
+
 ASK ❓ - Request clarification
+
 WAIT ⏳ - Process responses
+
 RETRIEVE 📚 - Search knowledge base
+
 DECIDE ⚖️ - Evaluate solutions and escalate
+
 UPDATE 🔄 - Update ticket status
+
 CREATE ✍️ - Generate customer response
+
 DO 🏃 - Execute actions and notifications
+
 COMPLETE ✅ - Output final payload
 
-🏗️ Architecture
+**🏗️ Architecture**
+
 Core Components
 
 LangGraph Workflow: Orchestrates stage execution with state persistence
+
 MCP Client Integration: Routes abilities to COMMON or ATLAS servers
+
 State Management: Maintains context across all workflow stages
+
 Stage Orchestration: Supports deterministic and non-deterministic execution
 
-<!-- Workflow Details -->
+**<!-- Workflow Details -->**
 
 Input Schema
 
