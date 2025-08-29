@@ -1,0 +1,27 @@
+# LangGraph Agent Dependencies
+# Core LangGraph and LangChain requirements
+langgraph>=0.2.0
+langchain>=0.2.0
+langchain-core>=0.2.0
+
+# Async support
+asyncio-tools>=0.1.2
+aiohttp>=3.9.0
+
+# Data handling
+pydantic>=2.0.0
+typing-extensions>=4.8.0
+
+# Logging and monitoring
+structlog>=23.0.0
+rich>=13.0.0
+
+# Optional: For production deployments
+uvicorn>=0.24.0
+fastapi>=0.104.0
+
+# Development dependencies
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+mypy>=1.7.0
